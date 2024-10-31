@@ -16,8 +16,8 @@ public class S3Service {
     private final S3Client s3Client;
 
     public S3Service() {
-        String aws_access_key_id = "AKIA<placeholder>";
-        String aws_secret_access_key = "<placeholder>";
+        String aws_access_key_id = "AKIA2UC3BSXMBOH4L44S";
+        String aws_secret_access_key = "mW69B61az6LSjOm+B2iYhgzcNh7RADOvhAq/+3Tn";
  
         AwsBasicCredentials awsCredentials = AwsBasicCredentials.create(aws_access_key_id, aws_secret_access_key);
 
